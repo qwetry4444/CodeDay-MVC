@@ -1,0 +1,216 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+.task{
+    background-color: #d6d6d6;
+    border-radius: 15px;
+    padding: 14px;
+    margin-bottom: 10px;
+
+}
+
+.task{
+    display: table;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: #fff;
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+    font-family: 'Wix Madefor Display', sans-serif;
+    background-color: #0f0f0f;
+
+
+    padding: 20px;
+    border: 3px solid #fff;
+
+}
+
+.tasks{
+    width: 100%;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.like,  .dislike{
+    width: 35px;
+    height: 35px;
+    margin-right: 5px;
+    background-color: #fff  ;
+}
+
+.task div:not(:last-child){
+    border-right: 1px solid #fff;
+}
+
+.task div{
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+.tasks a{
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.tasks a .task:hover{
+    background-color: #494949;
+}
+
+div .task_menu{
+    margin-bottom: 30px;
+    width: 100%;    
+}
+
+.task{
+    width: 100%;
+}
+
+/* .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} */
+
+.container_tasks{
+    margin: auto;
+    margin-top: 200px;
+    align-items: center;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tasks:last-child{
+    margin-bottom: 128px;
+}
+
+.task_container{
+    max-width: 90%;
+    margin: auto;
+}
+
+.task_solving_field{
+
+    width: 100%;
+    height: 100%;
+}
+
+.row{
+    margin-bottom: 50px;
+}
+
+.task_solving_field{
+    border: solid 2px;
+}
+
+.task div{
+    justify-content: center;
+    font-size: 18px;
+}
+
+.task_about{
+    border: solid 2px;
+    border-radius: 5px;
+    padding: 40px;
+    padding-top: 60px;
+}
+
+.task_solving{
+    border: solid 2px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.task_about-solving{
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+}
+
+.task_about .col-6, .col-4{
+    display: flex;
+    justify-content: center;
+}
+
+form .submit_block{
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
+    
+}
+
+.select_pl{
+    margin-bottom: 15px;
+}
+
+.submit_block button.submit_task{
+    background-color: green;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.code_field{
+    border: solid 4px;
+    display: flex;
+}
+
+.evaluation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.like_block{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.like_block a, .dislike_block a{
+    text-decoration: none;
+}
+
+.eval_link{
+    display: flex;
+}
+
+.eval_link h4{
+    text-decoration: none;
+    color: #000; 
+
+}
+
+.like_block:hover{
+    background-color: rgb(75, 255, 75);
+    border-radius: 10px;
+    .like{
+        background-color: rgb(75, 255, 75);
+    }
+}
+
+.dislike_block:hover{
+    background-color: rgb(255, 85, 85);
+    border-radius: 10px;
+    .dislike{
+        background-color: rgb(255, 85, 85);
+    }
+}

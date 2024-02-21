@@ -1,0 +1,53 @@
+.data h2, .data h3, .data p{
+    padding: 30px;
+}
+
+
+.data:last-child{
+    margin-bottom: 280px;
+}
+
+.profile .h1{
+    
+}
+
+.head{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.head h1{
+    color: #000;
+}
+
+.data{
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border: solid 2px #000;
+    border-radius: 8px;
+
+    max-width: 700px;
+}
+
+.data div{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.data div h2, .data div h3, .data div p{
+    font-size: 24px;
+    font-weight: 200;
+    color: #fff;
+}
+
+.data div:not(:last-child){
+    border-bottom: solid 1px #fff;
+}
+
+/* .data:first-child{
+    padding-top: 50px;
+} */

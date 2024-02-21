@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header{
+    min-height: 90px;
+    margin-top: 20px;
+    margin-bottom: 150px;
+
+    background-color:lavenderblush;
+
+}
+
+a.navbar-brand{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position:relative;
+    
+
+    font-size: 34px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+
+}
+
+a.nav-link{
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 26px;
+}
+li.nav-item{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.navbar-nav{
+    width: 75%;
+}
+
+.collapse{
+    justify-content: center;
+}
+
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head-top .container .row{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.burger_icon{
+    width: 50px;
+    height: 32px;
+}
+
+.exit{
+    width: 40px;
+    height: 40px;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .navbar{display: flex; 
+            justify-content: center;}
+            
+    .navbar-nav{width: 100%}
+    
+    a.navbar-brand{position:relative;
+                    left: 55px;
+    }
+
+
+    li.nav-item:hover {
+        background-color:#e0e0e0;
+    }
+}
+
+a.navbar-brand:hover, a.nav-link:hover {
+    color:#5e5e5e;
+}
+
+@media screen and (max-width: 576px){
+    a.navbar-brand{
+    font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 410px){
+    a.navbar-brand{
+    font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 368px){
+    a.navbar-brand{
+        margin: 0;
+        left: 0;
+    } 
+
+}
+

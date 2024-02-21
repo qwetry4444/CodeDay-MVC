@@ -1,0 +1,39 @@
+
+textarea:focus ~ label,
+textarea:valid ~ label  
+{
+    top: -2px;
+}
+
+.add_new_task_form_box{
+    display: flex;
+    justify-content: center;
+    
+    margin-bottom: 50px;
+}
+
+.add_new_task_form_box h2{
+    margin-bottom: 60px;
+}
+
+.add_new_task_form_box form{
+    padding: 50px;
+    border: solid 3px #000;
+    border-radius: 4px;
+}
+
+.status{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 20px;
+
+    font-size: 18px;
+}
+.label_stat{
+    margin-bottom: 10px;
+}
+
+.input_stat{
+    margin-top: 15px;
+}
