@@ -29,8 +29,8 @@ class NewTaskFormController extends Controller
         {
             $inputNameValue[$name] = $this->request()->input($name);
         }
-        $filePath = $this->request()->file('tests')->move('tests');
 
+        $filePath = $this->request()->file('tests')->move('tests');
         $inputNameValue['tests'] = $filePath;
 
         $this->request()->setCookieMany($inputNameValue);
