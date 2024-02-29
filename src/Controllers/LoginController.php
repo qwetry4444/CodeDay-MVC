@@ -2,9 +2,9 @@
 
 namespace App\Controllers;
 
+use App\Kernel\Controller\Controller;
 use App\Kernel\View\View;
 use App\Kernel\Http\Request;
-use App\Kernel\Controller\Controller;
 
 class LoginController extends Controller
 {
