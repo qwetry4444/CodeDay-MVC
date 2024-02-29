@@ -4,6 +4,7 @@
  */
 ?>
 
+
 <!doctype html>
 <html lang="ru">
 <?php $view->component('head'); ?>
