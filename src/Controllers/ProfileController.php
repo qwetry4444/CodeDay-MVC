@@ -2,8 +2,9 @@
 
 namespace App\Controllers;
 
-use App\Kernel\View\View;
 use App\Kernel\Controller\Controller;
+use App\Kernel\View\View;
+
 
 class ProfileController extends Controller
 {
